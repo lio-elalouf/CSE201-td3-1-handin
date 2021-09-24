@@ -30,11 +30,12 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-#if GRADING != 1
+#if GRADING != 0
   // START OF THE CUSTOM CODE SECTION
   // This code will be executed only if you set GRADING to a value different from 1
 
   {
+        std::cout << "First git commit" << std::endl;
   }
   // END OF THE CUSTOM CODE SECTION
 #else
